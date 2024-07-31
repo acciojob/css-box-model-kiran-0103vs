@@ -1,2 +1,11 @@
 
 /* Your CSS Code here. */
+/* Style for the box model */
+.box-model {
+    width: 300px;
+    background-color: lightblue;
+    border: 15px solid blue;
+    padding: 50px;
+    margin: 20px;
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
+}
